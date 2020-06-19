@@ -1,0 +1,85 @@
+// 接口
+https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=6i000D731400&from_station_telecode=IOQ&to_station_telecode=CBQ&depart_date=2019-10-22
+
+// 入参
+train_no = 6i000D731400
+from_station_telecode = IOQ
+to_station_telecode = CBQ
+depart_date = 2019-10-22
+
+// 返回
+{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"data":[{"start_station_name":"邯郸","arrive_time":"----","station_train_code":"K7726","station_name":"邯郸","train_class_name":"快速","service_type":"1","start_time":"17:50","stopover_time":"----","end_station_name":"秦皇岛","station_no":"01","isEnabled":false},{"arrive_time":"18:13","station_name":"沙河市","start_time":"18:15","stopover_time":"2分钟","station_no":"02","isEnabled":false},{"arrive_time":"18:35","station_name":"邢台","start_time":"19:06","stopover_time":"31分钟","station_no":"03","isEnabled":false},{"arrive_time":"19:34","station_name":"临城","start_time":"19:43","stopover_time":"9分钟","station_no":"04","isEnabled":false},{"arrive_time":"20:29","station_name":"石家庄","start_time":"20:38","stopover_time":"9分钟","station_no":"05","isEnabled":false},{"arrive_time":"21:25","station_name":"定州","start_time":"21:27","stopover_time":"2分钟","station_no":"06","isEnabled":false},{"arrive_time":"22:04","station_name":"保定","start_time":"22:07","stopover_time":"3分钟","station_no":"07","isEnabled":false},{"arrive_time":"23:49","station_name":"北京西","start_time":"00:17","stopover_time":"28分钟","station_no":"08","isEnabled":true},{"arrive_time":"02:33","station_name":"天津","start_time":"02:39","stopover_time":"6分钟","station_no":"09","isEnabled":true},{"arrive_time":"04:12","station_name":"唐山","start_time":"04:18","stopover_time":"6分钟","station_no":"10","isEnabled":false},{"arrive_time":"05:20","station_name":"滦县","start_time":"05:36","stopover_time":"16分钟","station_no":"11","isEnabled":false},{"arrive_time":"06:34","station_name":"秦皇岛","start_time":"06:34","stopover_time":"----","station_no":"12","isEnabled":false}]},"messages":[],"validateMessages":{}}
+
+// 处理结果
+[
+  { 
+    "start_station_name": "深圳北", 
+    "arrive_time": "----", 
+    "station_train_code": "D7314", 
+    "station_name": "深圳北", 
+    "train_class_name": "动车", 
+    "service_type": "1", 
+    "start_time": "06:30", 
+    "stopover_time": "----", 
+    "end_station_name": "梅州西", 
+    "station_no": "01", 
+    "isEnabled": true 
+  }, 
+  { 
+    "arrive_time": "07:58",
+    "station_name": "普宁",
+    "start_time": "08:00",
+    "stopover_time": "2分钟",
+    "station_no": "02",
+    "isEnabled": true 
+  }, 
+  { "arrive_time": "08:13",
+    "station_name": "潮阳",
+    "start_time": "08:15",
+    "stopover_time": "2分钟",
+    "station_no": "03",
+    "isEnabled": true 
+  }, 
+  { "arrive_time": "08:31",
+    "station_name": "潮汕",
+    "start_time": "08:51",
+    "stopover_time": "20分钟",
+    "station_no": "04",
+    "isEnabled": true 
+  }, 
+  { "arrive_time": "09:00",
+    "station_name": "揭阳机场",
+    "start_time": "09:02",
+    "stopover_time": "2分钟",
+    "station_no": "05",
+    "isEnabled": false 
+  }, 
+  { "arrive_time": "09:13",
+    "station_name": "揭阳",
+    "start_time": "09:15",
+    "stopover_time": "2分钟",
+    "station_no": "06",
+    "isEnabled": false 
+  }, 
+  { "arrive_time": "09:26",
+    "station_name": "丰顺东",
+    "start_time": "09:28",
+    "stopover_time": "2分钟",
+    "station_no": "07",
+    "isEnabled": false 
+  }, 
+  { "arrive_time": "09:41",
+    "station_name": "畲江北",
+    "start_time": "09:43",
+    "stopover_time": "2分钟",
+    "station_no": "08",
+    "isEnabled": false 
+  }, 
+  { "arrive_time": "09:55",
+    "station_name": "梅州西",
+    "start_time": "09:55",
+    "stopover_time": "----",
+    "station_no": "09",
+    "isEnabled": false 
+  }
+]
